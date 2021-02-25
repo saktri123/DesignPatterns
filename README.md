@@ -1,4 +1,5 @@
 # Design Patterns-
+Design patterns are the way of writing code, originally defined by immortal Gang of Fours. These can be categorized in following types-
 ## SOLID
 **S** - Single Responsibilty Principal
 
