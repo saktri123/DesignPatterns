@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace FacadExcercise
 {
-    class Program
+    class CodingExcercise
     {
         static void Main(string[] args)
         {
@@ -104,7 +104,7 @@ namespace FacadExcercise
                     magicSquare.Add(generator.Generate(size));
                 }
 
-            } while (!verifer.Verify(splitter.Split(magicSquare);));
+            } while (!verifer.Verify(splitter.Split(magicSquare)));
             return magicSquare;
         }
 
