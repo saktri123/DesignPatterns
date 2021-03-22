@@ -37,19 +37,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyWeight.CodeingExcercise"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proxy", "Proxy", "{E6D36D06-D2EF-47A0-8D9C-50CBD1F6C52B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtectionProxy", "Structural\Proxy\ProtectionProxy\ProtectionProxy.csproj", "{321115BA-A93B-4FE0-AB8F-3D5493B3909B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProtectionProxy", "Structural\Proxy\ProtectionProxy\ProtectionProxy.csproj", "{321115BA-A93B-4FE0-AB8F-3D5493B3909B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyProxy", "Structural\Proxy\PropertyProxy\PropertyProxy.csproj", "{ECE8DE40-E6E0-4995-B641-C2967214363E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertyProxy", "Structural\Proxy\PropertyProxy\PropertyProxy.csproj", "{ECE8DE40-E6E0-4995-B641-C2967214363E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueProxy", "Structural\Proxy\ValueProxy\ValueProxy.csproj", "{C1545013-B758-4224-A903-24B35E804DC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueProxy", "Structural\Proxy\ValueProxy\ValueProxy.csproj", "{C1545013-B758-4224-A903-24B35E804DC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeProxy", "Structural\Proxy\CompositeProxy\CompositeProxy.csproj", "{69F79B53-B095-44E1-B04F-9FDA9FA95142}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositeProxy", "Structural\Proxy\CompositeProxy\CompositeProxy.csproj", "{69F79B53-B095-44E1-B04F-9FDA9FA95142}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeArrayBacked", "Structural\Proxy\CompositeArrayBacked\CompositeArrayBacked.csproj", "{8D43FC86-BAEC-46E9-ACBB-D4DBFE91076C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositeArrayBacked", "Structural\Proxy\CompositeArrayBacked\CompositeArrayBacked.csproj", "{8D43FC86-BAEC-46E9-ACBB-D4DBFE91076C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "Structural\Proxy\ViewModel\ViewModel.csproj", "{BAA5BC7E-8FEA-43C4-8F1F-1028B8565FD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewModel", "Structural\Proxy\ViewModel\ViewModel.csproj", "{BAA5BC7E-8FEA-43C4-8F1F-1028B8565FD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyCodingExcercise", "Structural\Proxy\ProxyCodingExcercise\ProxyCodingExcercise.csproj", "{E1E8EAE3-1D2F-4944-BF17-5EEB80F06A01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyCodingExcercise", "Structural\Proxy\ProxyCodingExcercise\ProxyCodingExcercise.csproj", "{E1E8EAE3-1D2F-4944-BF17-5EEB80F06A01}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{71E720AA-0ADA-4315-A5AA-6CFB0CA1E823}"
 EndProject
@@ -93,25 +93,37 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DyanamicProxy", "Structural
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{E8671E3C-9891-47AC-8ED5-A21B44CD0139}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICloneable", "Creational\Prototype\ICloneable\ICloneable.csproj", "{93D9C156-A197-4EBA-AA8B-2AFC65BEC067}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICloneable", "Creational\Prototype\ICloneable\ICloneable.csproj", "{93D9C156-A197-4EBA-AA8B-2AFC65BEC067}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyConstructor", "Creational\Prototype\CopyConstructor\CopyConstructor.csproj", "{B818DB17-7632-4F3F-B100-57B6EEA004FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CopyConstructor", "Creational\Prototype\CopyConstructor\CopyConstructor.csproj", "{B818DB17-7632-4F3F-B100-57B6EEA004FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeInheritance", "Creational\Prototype\PrototypeInheritance\PrototypeInheritance.csproj", "{C0A74B84-971E-46C6-A40B-A6525A1082AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypeInheritance", "Creational\Prototype\PrototypeInheritance\PrototypeInheritance.csproj", "{C0A74B84-971E-46C6-A40B-A6525A1082AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyViaSerialization", "Creational\Prototype\CopyViaSerialization\CopyViaSerialization.csproj", "{BE6E8B3E-ED69-4693-9073-814558FCA187}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CopyViaSerialization", "Creational\Prototype\CopyViaSerialization\CopyViaSerialization.csproj", "{BE6E8B3E-ED69-4693-9073-814558FCA187}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singelton", "Singelton", "{6F954A8D-B944-47D4-B3DF-E5F6AE19CB20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic", "Creational\Singelton\Basic\Basic.csproj", "{EEF622F0-1CBE-4158-8877-4A589BB66513}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic", "Creational\Singelton\Basic\Basic.csproj", "{EEF622F0-1CBE-4158-8877-4A589BB66513}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoState", "Creational\Singelton\MonoState\MonoState.csproj", "{745047A1-2671-45BD-BEEE-DAD404C94192}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonoState", "Creational\Singelton\MonoState\MonoState.csproj", "{745047A1-2671-45BD-BEEE-DAD404C94192}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingeltonDI", "Creational\Singelton\SingeltonDI\SingeltonDI.csproj", "{2A6B9905-8CF7-478B-AC8F-31D199957145}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingeltonDI", "Creational\Singelton\SingeltonDI\SingeltonDI.csproj", "{2A6B9905-8CF7-478B-AC8F-31D199957145}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerThreadSingelton", "Creational\Singelton\PerThreadSingelton\PerThreadSingelton.csproj", "{4DEA4A98-CF98-411B-B2AE-843FCA887896}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerThreadSingelton", "Creational\Singelton\PerThreadSingelton\PerThreadSingelton.csproj", "{4DEA4A98-CF98-411B-B2AE-843FCA887896}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmbientContext", "Creational\Singelton\AmbientContext\AmbientContext.csproj", "{8C441008-5171-4E5D-ABA2-8D5109FBF254}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmbientContext", "Creational\Singelton\AmbientContext\AmbientContext.csproj", "{8C441008-5171-4E5D-ABA2-8D5109FBF254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokerChain", "Behavioral\ChainOfResponsibility\BrokerChain\BrokerChain.csproj", "{A259CBBD-C7DB-4618-8AE3-9FBA2DF11C0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodChain", "Behavioral\ChainOfResponsibility\MethodChain\MethodChain.csproj", "{E80D310E-A88A-4A9F-8ED8-DEF6E5FA8C3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCommand", "Behavioral\Command\BasicCommand\BasicCommand.csproj", "{73D15E34-7F38-4250-86FC-8A90CEA63B2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeCommand", "Behavioral\Command\CompositeCommand\CompositeCommand.csproj", "{BFB1D1EA-ABBE-44AC-9FFA-28E465C56A22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandMade", "Behavioral\Interpreter\HandMade\HandMade.csproj", "{0F7E1960-D28E-4A34-94BC-FB99B045B4D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExressinoCalculator", "Behavioral\Interpreter\ExressinoCalculator\ExressinoCalculator.csproj", "{6CEA62BE-7630-48B0-ADF1-2FC6FB04C452}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -247,6 +259,30 @@ Global
 		{8C441008-5171-4E5D-ABA2-8D5109FBF254}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C441008-5171-4E5D-ABA2-8D5109FBF254}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C441008-5171-4E5D-ABA2-8D5109FBF254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A259CBBD-C7DB-4618-8AE3-9FBA2DF11C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A259CBBD-C7DB-4618-8AE3-9FBA2DF11C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A259CBBD-C7DB-4618-8AE3-9FBA2DF11C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A259CBBD-C7DB-4618-8AE3-9FBA2DF11C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E80D310E-A88A-4A9F-8ED8-DEF6E5FA8C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E80D310E-A88A-4A9F-8ED8-DEF6E5FA8C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E80D310E-A88A-4A9F-8ED8-DEF6E5FA8C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E80D310E-A88A-4A9F-8ED8-DEF6E5FA8C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73D15E34-7F38-4250-86FC-8A90CEA63B2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D15E34-7F38-4250-86FC-8A90CEA63B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D15E34-7F38-4250-86FC-8A90CEA63B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D15E34-7F38-4250-86FC-8A90CEA63B2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB1D1EA-ABBE-44AC-9FFA-28E465C56A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB1D1EA-ABBE-44AC-9FFA-28E465C56A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB1D1EA-ABBE-44AC-9FFA-28E465C56A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB1D1EA-ABBE-44AC-9FFA-28E465C56A22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F7E1960-D28E-4A34-94BC-FB99B045B4D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F7E1960-D28E-4A34-94BC-FB99B045B4D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F7E1960-D28E-4A34-94BC-FB99B045B4D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7E1960-D28E-4A34-94BC-FB99B045B4D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CEA62BE-7630-48B0-ADF1-2FC6FB04C452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CEA62BE-7630-48B0-ADF1-2FC6FB04C452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CEA62BE-7630-48B0-ADF1-2FC6FB04C452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CEA62BE-7630-48B0-ADF1-2FC6FB04C452}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -303,6 +339,12 @@ Global
 		{2A6B9905-8CF7-478B-AC8F-31D199957145} = {6F954A8D-B944-47D4-B3DF-E5F6AE19CB20}
 		{4DEA4A98-CF98-411B-B2AE-843FCA887896} = {6F954A8D-B944-47D4-B3DF-E5F6AE19CB20}
 		{8C441008-5171-4E5D-ABA2-8D5109FBF254} = {6F954A8D-B944-47D4-B3DF-E5F6AE19CB20}
+		{A259CBBD-C7DB-4618-8AE3-9FBA2DF11C0D} = {DEB9CC67-1AC0-4043-8E39-B972E0FC4EBA}
+		{E80D310E-A88A-4A9F-8ED8-DEF6E5FA8C3C} = {DEB9CC67-1AC0-4043-8E39-B972E0FC4EBA}
+		{73D15E34-7F38-4250-86FC-8A90CEA63B2F} = {D2C9CC03-1212-4246-BD41-DCC70B335D08}
+		{BFB1D1EA-ABBE-44AC-9FFA-28E465C56A22} = {D2C9CC03-1212-4246-BD41-DCC70B335D08}
+		{0F7E1960-D28E-4A34-94BC-FB99B045B4D6} = {B586976D-4A03-43EF-A72D-9135E7E9947C}
+		{6CEA62BE-7630-48B0-ADF1-2FC6FB04C452} = {B586976D-4A03-43EF-A72D-9135E7E9947C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {18BB1006-7B6D-444B-997B-B5346879195A}
