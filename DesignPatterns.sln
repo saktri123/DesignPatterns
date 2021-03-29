@@ -113,17 +113,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerThreadSingelton", "Creat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmbientContext", "Creational\Singelton\AmbientContext\AmbientContext.csproj", "{8C441008-5171-4E5D-ABA2-8D5109FBF254}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokerChain", "Behavioral\ChainOfResponsibility\BrokerChain\BrokerChain.csproj", "{A259CBBD-C7DB-4618-8AE3-9FBA2DF11C0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrokerChain", "Behavioral\ChainOfResponsibility\BrokerChain\BrokerChain.csproj", "{A259CBBD-C7DB-4618-8AE3-9FBA2DF11C0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodChain", "Behavioral\ChainOfResponsibility\MethodChain\MethodChain.csproj", "{E80D310E-A88A-4A9F-8ED8-DEF6E5FA8C3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodChain", "Behavioral\ChainOfResponsibility\MethodChain\MethodChain.csproj", "{E80D310E-A88A-4A9F-8ED8-DEF6E5FA8C3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCommand", "Behavioral\Command\BasicCommand\BasicCommand.csproj", "{73D15E34-7F38-4250-86FC-8A90CEA63B2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicCommand", "Behavioral\Command\BasicCommand\BasicCommand.csproj", "{73D15E34-7F38-4250-86FC-8A90CEA63B2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeCommand", "Behavioral\Command\CompositeCommand\CompositeCommand.csproj", "{BFB1D1EA-ABBE-44AC-9FFA-28E465C56A22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositeCommand", "Behavioral\Command\CompositeCommand\CompositeCommand.csproj", "{BFB1D1EA-ABBE-44AC-9FFA-28E465C56A22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandMade", "Behavioral\Interpreter\HandMade\HandMade.csproj", "{0F7E1960-D28E-4A34-94BC-FB99B045B4D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandMade", "Behavioral\Interpreter\HandMade\HandMade.csproj", "{0F7E1960-D28E-4A34-94BC-FB99B045B4D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExressinoCalculator", "Behavioral\Interpreter\ExressinoCalculator\ExressinoCalculator.csproj", "{6CEA62BE-7630-48B0-ADF1-2FC6FB04C452}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExressinoCalculator", "Behavioral\Interpreter\ExressinoCalculator\ExressinoCalculator.csproj", "{6CEA62BE-7630-48B0-ADF1-2FC6FB04C452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeTraversal", "Behavioral\Iterator\TreeTraversal\TreeTraversal.csproj", "{707C699F-5F01-4F81-82FF-B745B612B49A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayBackedProperties", "Behavioral\Iterator\ArrayBackedProperties\ArrayBackedProperties.csproj", "{2F6F4078-11E6-486F-8A0D-B4D38FACEE26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -283,6 +287,14 @@ Global
 		{6CEA62BE-7630-48B0-ADF1-2FC6FB04C452}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CEA62BE-7630-48B0-ADF1-2FC6FB04C452}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CEA62BE-7630-48B0-ADF1-2FC6FB04C452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{707C699F-5F01-4F81-82FF-B745B612B49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{707C699F-5F01-4F81-82FF-B745B612B49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{707C699F-5F01-4F81-82FF-B745B612B49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{707C699F-5F01-4F81-82FF-B745B612B49A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F6F4078-11E6-486F-8A0D-B4D38FACEE26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F6F4078-11E6-486F-8A0D-B4D38FACEE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F6F4078-11E6-486F-8A0D-B4D38FACEE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F6F4078-11E6-486F-8A0D-B4D38FACEE26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -345,6 +357,8 @@ Global
 		{BFB1D1EA-ABBE-44AC-9FFA-28E465C56A22} = {D2C9CC03-1212-4246-BD41-DCC70B335D08}
 		{0F7E1960-D28E-4A34-94BC-FB99B045B4D6} = {B586976D-4A03-43EF-A72D-9135E7E9947C}
 		{6CEA62BE-7630-48B0-ADF1-2FC6FB04C452} = {B586976D-4A03-43EF-A72D-9135E7E9947C}
+		{707C699F-5F01-4F81-82FF-B745B612B49A} = {768CE17C-D030-4264-825D-68A5357179E7}
+		{2F6F4078-11E6-486F-8A0D-B4D38FACEE26} = {768CE17C-D030-4264-825D-68A5357179E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {18BB1006-7B6D-444B-997B-B5346879195A}
